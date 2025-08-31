@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Recipe Finder</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍲 Smart Recipe Finder</h1>
+
+    <!-- Search & Filters -->
+    <div class="filters">
+      <input type="text" id="ingredients" placeholder="Enter ingredients (comma separated)">
+      <select id="diet">
+        <option value="">Any Diet</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="non-vegetarian">Non-Vegetarian</option>
+      </select>
+      <select id="difficulty">
+        <option value="">Any Difficulty</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <input type="number" id="maxTime" placeholder="Max Time (minutes)">
+      <button id="loadBtn">🔍 Find Recipes</button>
+    </div>
+
+    <!-- Recipe List -->
+    <div id="recipes"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

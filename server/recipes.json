@@ -1,0 +1,303 @@
+[
+  {
+    "id": "r1",
+    "title": "Italian Pasta",
+    "cuisine": "Italian",
+    "difficulty": "easy",
+    "timeMinutes": 20,
+    "servings": 2,
+    "dietTags": ["vegetarian"],
+    "ingredients": [
+      { "item": "pasta", "quantity": 200, "unit": "g" },
+      { "item": "tomato sauce", "quantity": 1, "unit": "cup" }
+    ],
+    "steps": ["Boil pasta", "Add sauce", "Serve hot"],
+    "nutrition": { "calories": 400, "protein": 12 }
+  },
+  {
+    "id": "r2",
+    "title": "Grilled Chicken",
+    "cuisine": "American",
+    "difficulty": "medium",
+    "timeMinutes": 30,
+    "servings": 2,
+    "dietTags": ["non-vegetarian", "high-protein"],
+    "ingredients": [
+      { "item": "chicken breast", "quantity": 2, "unit": "pcs" },
+      { "item": "olive oil", "quantity": 2, "unit": "tbsp" }
+    ],
+    "steps": ["Marinate chicken", "Grill until cooked"],
+    "nutrition": { "calories": 350, "protein": 30 }
+  },
+  {
+    "id": "r3",
+    "title": "Veggie Stir Fry",
+    "cuisine": "Chinese",
+    "difficulty": "easy",
+    "timeMinutes": 15,
+    "servings": 2,
+    "dietTags": ["vegan"],
+    "ingredients": [
+      { "item": "broccoli", "quantity": 1, "unit": "cup" },
+      { "item": "carrot", "quantity": 1, "unit": "pc" },
+      { "item": "soy sauce", "quantity": 2, "unit": "tbsp" }
+    ],
+    "steps": ["Chop vegetables", "Stir fry with soy sauce"],
+    "nutrition": { "calories": 220, "protein": 6 }
+  },
+  {
+    "id": "r4",
+    "title": "Paneer Butter Masala",
+    "cuisine": "Indian",
+    "difficulty": "hard",
+    "timeMinutes": 40,
+    "servings": 3,
+    "dietTags": ["vegetarian"],
+    "ingredients": [
+      { "item": "paneer", "quantity": 200, "unit": "g" },
+      { "item": "butter", "quantity": 2, "unit": "tbsp" }
+    ],
+    "steps": ["Cook gravy", "Add paneer", "Simmer & serve"],
+    "nutrition": { "calories": 500, "protein": 18 }
+  },
+  {
+    "id": "r5",
+    "title": "Avocado Salad",
+    "cuisine": "Mexican",
+    "difficulty": "easy",
+    "timeMinutes": 10,
+    "servings": 1,
+    "dietTags": ["vegan", "gluten-free"],
+    "ingredients": [
+      { "item": "avocado", "quantity": 1, "unit": "pc" },
+      { "item": "lime juice", "quantity": 1, "unit": "tbsp" }
+    ],
+    "steps": ["Cut avocado", "Mix with lime juice"],
+    "nutrition": { "calories": 180, "protein": 3 }
+  },
+  {
+    "id": "r6",
+    "title": "French Omelette",
+    "cuisine": "French",
+    "difficulty": "easy",
+    "timeMinutes": 7,
+    "servings": 1,
+    "dietTags": ["vegetarian", "high-protein"],
+    "ingredients": [
+      { "item": "egg", "quantity": 3, "unit": "pcs" },
+      { "item": "butter", "quantity": 1, "unit": "tbsp" }
+    ],
+    "steps": ["Beat eggs", "Cook with butter", "Fold & serve"],
+    "nutrition": { "calories": 250, "protein": 14 }
+  },
+  {
+    "id": "r7",
+    "title": "Quinoa Bowl",
+    "cuisine": "Mediterranean",
+    "difficulty": "medium",
+    "timeMinutes": 25,
+    "servings": 2,
+    "dietTags": ["vegan", "gluten-free"],
+    "ingredients": [
+      { "item": "quinoa", "quantity": 1, "unit": "cup" },
+      { "item": "chickpeas", "quantity": 1, "unit": "cup" }
+    ],
+    "steps": ["Boil quinoa", "Mix with chickpeas"],
+    "nutrition": { "calories": 300, "protein": 10 }
+  },
+  {
+    "id": "r8",
+    "title": "Fish Curry",
+    "cuisine": "Indian",
+    "difficulty": "medium",
+    "timeMinutes": 35,
+    "servings": 3,
+    "dietTags": ["non-vegetarian"],
+    "ingredients": [
+      { "item": "fish", "quantity": 300, "unit": "g" },
+      { "item": "coconut milk", "quantity": 1, "unit": "cup" }
+    ],
+    "steps": ["Cook spices", "Add fish & coconut milk"],
+    "nutrition": { "calories": 420, "protein": 22 }
+  },
+  {
+    "id": "r9",
+    "title": "Tofu Scramble",
+    "cuisine": "Vegan",
+    "difficulty": "easy",
+    "timeMinutes": 12,
+    "servings": 1,
+    "dietTags": ["vegan", "high-protein"],
+    "ingredients": [
+      { "item": "tofu", "quantity": 150, "unit": "g" },
+      { "item": "turmeric", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": ["Mash tofu", "Cook with turmeric"],
+    "nutrition": { "calories": 180, "protein": 14 }
+  },
+  {
+    "id": "r10",
+    "title": "Greek Salad",
+    "cuisine": "Greek",
+    "difficulty": "easy",
+    "timeMinutes": 10,
+    "servings": 2,
+    "dietTags": ["vegetarian", "gluten-free"],
+    "ingredients": [
+      { "item": "cucumber", "quantity": 1, "unit": "pc" },
+      { "item": "feta cheese", "quantity": 50, "unit": "g" }
+    ],
+    "steps": ["Chop vegetables", "Add feta & serve"],
+    "nutrition": { "calories": 150, "protein": 5 }
+  },
+  {
+    "id": "r11",
+    "title": "Biryani",
+    "cuisine": "Indian",
+    "difficulty": "hard",
+    "timeMinutes": 60,
+    "servings": 4,
+    "dietTags": ["non-vegetarian"],
+    "ingredients": [
+      { "item": "rice", "quantity": 2, "unit": "cups" },
+      { "item": "chicken", "quantity": 300, "unit": "g" }
+    ],
+    "steps": ["Cook rice", "Layer with chicken", "Steam cook"],
+    "nutrition": { "calories": 600, "protein": 25 }
+  },
+  {
+    "id": "r12",
+    "title": "Falafel Wrap",
+    "cuisine": "Middle Eastern",
+    "difficulty": "medium",
+    "timeMinutes": 20,
+    "servings": 2,
+    "dietTags": ["vegan"],
+    "ingredients": [
+      { "item": "falafel", "quantity": 4, "unit": "pcs" },
+      { "item": "pita bread", "quantity": 2, "unit": "pcs" }
+    ],
+    "steps": ["Warm pita", "Fill with falafel & veggies"],
+    "nutrition": { "calories": 280, "protein": 8 }
+  },
+  {
+    "id": "r13",
+    "title": "Caesar Salad",
+    "cuisine": "American",
+    "difficulty": "easy",
+    "timeMinutes": 15,
+    "servings": 2,
+    "dietTags": ["vegetarian"],
+    "ingredients": [
+      { "item": "lettuce", "quantity": 1, "unit": "head" },
+      { "item": "parmesan", "quantity": 30, "unit": "g" }
+    ],
+    "steps": ["Chop lettuce", "Add dressing & parmesan"],
+    "nutrition": { "calories": 180, "protein": 6 }
+  },
+  {
+    "id": "r14",
+    "title": "Ramen Bowl",
+    "cuisine": "Japanese",
+    "difficulty": "medium",
+    "timeMinutes": 25,
+    "servings": 2,
+    "dietTags": ["non-vegetarian"],
+    "ingredients": [
+      { "item": "ramen noodles", "quantity": 2, "unit": "packs" },
+      { "item": "chicken broth", "quantity": 2, "unit": "cups" }
+    ],
+    "steps": ["Boil noodles", "Add broth & toppings"],
+    "nutrition": { "calories": 450, "protein": 15 }
+  },
+  {
+    "id": "r15",
+    "title": "Miso Soup",
+    "cuisine": "Japanese",
+    "difficulty": "easy",
+    "timeMinutes": 10,
+    "servings": 2,
+    "dietTags": ["vegan"],
+    "ingredients": [
+      { "item": "miso paste", "quantity": 2, "unit": "tbsp" },
+      { "item": "tofu", "quantity": 50, "unit": "g" }
+    ],
+    "steps": ["Boil water", "Add miso paste & tofu"],
+    "nutrition": { "calories": 90, "protein": 7 }
+  },
+  {
+    "id": "r16",
+    "title": "Veggie Burger",
+    "cuisine": "American",
+    "difficulty": "medium",
+    "timeMinutes": 30,
+    "servings": 2,
+    "dietTags": ["vegetarian"],
+    "ingredients": [
+      { "item": "burger bun", "quantity": 2, "unit": "pcs" },
+      { "item": "veggie patty", "quantity": 2, "unit": "pcs" }
+    ],
+    "steps": ["Grill patty", "Assemble burger"],
+    "nutrition": { "calories": 350, "protein": 12 }
+  },
+  {
+    "id": "r17",
+    "title": "Shakshuka",
+    "cuisine": "Middle Eastern",
+    "difficulty": "medium",
+    "timeMinutes": 25,
+    "servings": 2,
+    "dietTags": ["vegetarian"],
+    "ingredients": [
+      { "item": "egg", "quantity": 4, "unit": "pcs" },
+      { "item": "tomato", "quantity": 2, "unit": "pcs" }
+    ],
+    "steps": ["Cook tomatoes", "Poach eggs in sauce"],
+    "nutrition": { "calories": 280, "protein": 14 }
+  },
+  {
+    "id": "r18",
+    "title": "Sushi Roll",
+    "cuisine": "Japanese",
+    "difficulty": "hard",
+    "timeMinutes": 50,
+    "servings": 4,
+    "dietTags": ["non-vegetarian"],
+    "ingredients": [
+      { "item": "sushi rice", "quantity": 2, "unit": "cups" },
+      { "item": "salmon", "quantity": 100, "unit": "g" }
+    ],
+    "steps": ["Prepare rice", "Roll with fish & seaweed"],
+    "nutrition": { "calories": 500, "protein": 20 }
+  },
+  {
+    "id": "r19",
+    "title": "Lentil Soup",
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "timeMinutes": 25,
+    "servings": 3,
+    "dietTags": ["vegan", "high-protein"],
+    "ingredients": [
+      { "item": "lentils", "quantity": 1, "unit": "cup" },
+      { "item": "onion", "quantity": 1, "unit": "pc" }
+    ],
+    "steps": ["Boil lentils", "Add onion & spices"],
+    "nutrition": { "calories": 280, "protein": 12 }
+  },
+  {
+    "id": "r20",
+    "title": "Pancakes",
+    "cuisine": "American",
+    "difficulty": "easy",
+    "timeMinutes": 15,
+    "servings": 2,
+    "dietTags": ["vegetarian"],
+    "ingredients": [
+      { "item": "flour", "quantity": 1, "unit": "cup" },
+      { "item": "milk", "quantity": 1, "unit": "cup" }
+    ],
+    "steps": ["Mix ingredients", "Cook on pan"],
+    "nutrition": { "calories": 300, "protein": 8 }
+  }
+]
